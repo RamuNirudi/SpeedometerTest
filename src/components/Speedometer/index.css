@@ -1,0 +1,48 @@
+.container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: white;
+  font-size: 30px;
+  font-family: 'roboto';
+  font-style: italic;
+}
+.pic {
+  height: 200px;
+  width: 400px;
+}
+.subheading {
+  color: white;
+  font-family: 'roboto';
+}
+.paragraph1 {
+  color: white;
+}
+.first-button {
+  background-color: #0b69ff;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.second-button {
+  background-color: transparent;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: white;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
